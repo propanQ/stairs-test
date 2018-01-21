@@ -6,14 +6,34 @@
 		$_SESSION['csrf_' . $form_key] = $csrf_token;
 ?>
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" prefix="og: http://ogp.me/ns#">
 <head>
 	<meta charset="UTF-8">
-	<title>STAIRS - веб студия разработки сайтов</title>
+	<title>&#9656;Cоздание и разработка сайтов | Заказать сайт - веб студия &#119826;&#119827;&#119808;&#119816;&#119825;&#119826; </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Портфоліо розробки сайтів! Зразки сайтів, методи розробки сайта, можливісь замовити сайт">
-	<meta name="keywords" content="Stairs, web-студія, замовити сайт, сайти купити, сайти посмотреть">
+	<meta name="description" content="Создаем сайты качественно и по разумной цене. Веб студия STAIRS разрабатывает адаптивные, стильные и прибыльные сайты. Заказывайте недорогие сайты у нашой студии.">
 	<link rel="shortcut icon" href="img/logo_min.png" type="image/x-icon">
+	<meta property="og:title" content="&#9656;Cоздание и разработка сайтов | Заказать сайт - веб студия &#119826;&#119827;&#119808;&#119816;&#119825;&#119826;">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="stairs.com.....">
+	<meta property="og:image" content="........jpg">
+
+	<div class="none">
+	<div itemscope itemtype="http://schema.org/Organization">
+  	<span itemprop="name">STAIRS</span>
+  	Контакты:
+  	<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+    Адрес:
+    <span itemprop="streetAddress">Доминиканская, 2А</span>,
+    <span itemprop="addressLocality">Каменец-Подольский</span>,
+  	</div>
+  	Телефоны: <span itemprop="telephone">+38 (097)-659-05-57 </span>,
+  	<span itemprop="telephone"> +38 (096)-475-15-67</span>,
+  	Электронная почта: <span itemprop="email">stairs.webstudio@gmail.com</span>
+	<div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+	Рейтинг: <span itemprop="ratingValue">5</span>/5 - 
+ 	Оценок: <span itemprop="reviewCount">2</span>
+	</div></div></div>
 	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="styles/animate.css">
 	<link rel="stylesheet" type="text/css" href="styles/reset.css">
@@ -22,6 +42,9 @@
 	<script src="js/jquery-2.2.4.min.js"></script>
 </head>
 <body>
+	<!-- [if lte IE 10]>
+	<meta http-equiv="refresh" content="0; url=old/oldbrowser">
+	<![endif]-->
 	
 	<div id="wrapper">
 
@@ -54,7 +77,7 @@
 									<div class="block">
 										<ul class="upper">
 											<li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i><span>Facebook</span></a></li>
-											<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a></li>
+											<li><img src="/icons/instagram.svg"><a href="#"><span>Instagram</span></a></li>
 											<li><a href="#"><i class="fa fa-vk" aria-hidden="true"></i><span>Vk</span></a></li>
 										</ul>
 									</div>
@@ -220,7 +243,7 @@
 
 					<div class="screen">
 						<a href="">
-							<img src="img/osbb.png" alt="">
+							<img class="got" src="img/osbb.png" alt="">
 						<div class="text">
 							<h3>Заголовок</h3>
 							<p>текст</p>
@@ -258,16 +281,12 @@
 						<div class="os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="0.10s">
 						<div class="phone_email">
 
-							<h2 class="upper aligner">Связаться с нами</h2>
-
-							<span class="write upper">звоните по телефону:</span>
-
-							<div class="call"><img src="img/phone-call.svg" alt=""><p>+38 (097)-659-05-57<br>+38 (096)-475-15-67</p></div><br>
+							<h2 class="upper aligner hc">Связаться с нами</h2>
 
 							<span class="write upper">пишите нам на почту:</span>
-
 							<div class="mail"><img class="mes" src="img/mes.svg" alt=""><p>stairs.webstudio@gmail.com</p></div>
-
+							<span class="write upper">звоните по телефону:</span>
+							<div class="call"><img src="img/phone-call.svg" alt=""><p class="upper">+38 (097)-659-05-57<br>+38 (096)-475-15-67</p></div><br>
 						</div>
 						</div>
 						<div class="sending os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0.10s">
@@ -289,7 +308,7 @@
 							</form>
 
 						</div>
-					
+
 					</div>
 
 				</div>
@@ -314,16 +333,6 @@
 	
 	<script src='https://www.google.com/recaptcha/api.js'></script>
 	<script src="js/ajax.js"></script>
-
-		<script type="text/javascript">/*$('.small-menu').click(function(){
-  $('.mobiles').toggleClass('.mobilemenu');
-})
-$(document).click(function(event) {
-    if ($(event.target).closest(".small-menu").length ) return;
-    $('.mobiles').removeClass('.mobilemenu');
-    event.stopPropagation();
-});</script>
-
 	<script>
 
 		$(document).ready(function(){
