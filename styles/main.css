@@ -65,7 +65,7 @@ h1 {
 	top: 0;
 	right:0;
 	bottom:0;
-	background: #0F0F0F;
+	background: #000;
 	z-index: 500;
 }
  
@@ -76,7 +76,7 @@ h1 {
 	text-align: center;
 	position: absolute;
 	left: 50%;
-	top:50%;
+	top:48%;
 	transform: translate(-50%, -50%);
 		-o-transform: translate(-50%, -50%);
 		-ms-transform: translate(-50%, -50%);
@@ -208,7 +208,7 @@ canvas {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #101010;
+  background-color:#010103;
 }
 
 /* <---  ---> */
