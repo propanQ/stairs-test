@@ -1,8 +1,5 @@
 /* media qeeries for header */
 @media screen and (min-width: 280px) and (max-width: 579px) {
-	@viewport {
-   user-zoom: fixed;
-	}
 
 	header {
 		height: 640px;
@@ -20,6 +17,7 @@
 	.fixed {
 		position: fixed;
 		top: 0;
+		left: 0;
 		z-index: 101;
 	}
 
@@ -177,9 +175,6 @@
 
 @media screen and (min-width: 580px) and (max-width: 767px) {
 
-	@viewport {
- 	  user-zoom: fixed;
-	}
 	header {
 		height: 555px;
 		width: 100%;
