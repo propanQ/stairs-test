@@ -1,0 +1,393 @@
+<?php 
+	session_start();
+		$form_key = 'sendmassage_form';
+		$csrf_token = '';
+		$csrf_token = bin2hex(random_bytes(32));
+		$_SESSION['csrf_' . $form_key] = $csrf_token;
+?>
+<!DOCTYPE html>
+<html lang="ru" prefix="og: http://ogp.me/ns#">
+<head>
+	<meta charset="UTF-8">
+	<title>&#9656;Cоздание и разработка сайтов | Заказать сайт - веб студия &#119826;&#119827;&#119808;&#119816;&#119825;&#119826; </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="user-scalable=no">
+	<meta name="description" content="Создаем сайты качественно и по разумной цене. Веб студия STAIRS разрабатывает адаптивные, стильные и прибыльные сайты. Заказывайте недорогие сайты у нашой студии.">
+	<link rel="shortcut icon" href="img/logo_min.png" type="image/x-icon">
+	<meta property="og:title" content="&#9656;Cоздание и разработка сайтов | Заказать сайт - веб студия &#119826;&#119827;&#119808;&#119816;&#119825;&#119826;">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="webstairs.pro">
+	<meta property="og:image" content="https://propanq.github.io/stairs-test/img/forSocial.jpg">
+
+	<div class="none">
+	<div itemscope itemtype="http://schema.org/Organization">
+  	<span itemprop="name">STAIRS</span>
+  	Контакты:
+  	<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+    Адрес:
+    <span itemprop="streetAddress">Доминиканская, 2А</span>,
+    <span itemprop="addressLocality">Каменец-Подольский</span>,
+  	</div>
+  	Телефоны: <span itemprop="telephone">+38 (097)-659-05-57 </span>,
+  	<span itemprop="telephone"> +38 (096)-475-15-67</span>,
+  	Электронная почта: <span itemprop="email">stairs.webstudio@gmail.com</span>
+	<div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+	Рейтинг: <span itemprop="ratingValue">5</span>/5 - 
+ 	Оценок: <span itemprop="reviewCount">2</span>
+	</div></div></div>
+	<link rel="stylesheet" type="text/css" href="styles/animate.css">
+	<link rel="stylesheet" type="text/css" href="styles/reset.css">
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<link rel="stylesheet" type="text/css" href="styles/media.css">
+	
+	
+<script src="js/jquery-2.2.4.min.js"></script>
+</head>
+<body>
+	<!-- [if lte IE 10]>
+	<meta http-equiv="refresh" content="0; url=old/oldbrowser">
+	<![endif]-->
+
+	<div id="p_prldr"><div class="contpre"><span class="svg_anm"><div class="cssload-loader">STAIRS</div></span></div></div>
+<script type="text/javascript">
+	
+$(document).on('click', 'a', function() {
+    
+    var site = /index\.html/;
+
+    var href = $(this).attr('href');
+	
+   
+    if (/^(http|https|ftp)/.test(href) && !site.test(href)) {
+        $(this).attr('target', '_blank');
+    }
+})
+
+
+</script>
+	<div id="wrapper">
+
+		<!--      header         -->
+
+		<header>
+			
+			<div id="particles-js"></div>
+				<script src="js/animBack.js"></script>
+				<script src="js/js.js"></script>
+
+			<div class="header">
+
+				<div class="head-menu">
+					
+					<div class="mobiles">
+					
+						<div class="small-menu">
+							<img src="icons/menu.svg" class="fa">
+						</div>
+							<div class="mobilemenu">
+								<div class="top">
+									<ul class="upper">
+										<li><a href="#skill">Сервис</a></li>
+										<li><a href="#our">Портфолио</a></li>
+										<li><a href="#communication">Связь</a></li>
+									</ul>
+								</div>
+								<div class="bottom">
+									<div class="block">
+										<ul class="upper">
+											<li><a href="https://www.facebook.com/groups/stairs.webstudio/"><img src="icons/facebook-min.svg"><span>Facebook</span></a></li>
+											<li><a href="https://www.instagram.com/stairs.webstudio/"><img src="icons/instagram-min.svg"><span>Instagram</span></a></li>
+											<li><a href="https://vk.com/stairs.webstudio/"><img src="icons/vk-min.svg"><span>Vk</span></a></li>
+										</ul>
+									</div>
+								</div>	
+							</div>
+						</div>
+					
+					<div class="left-menu">
+						<ul class="upper">
+							<li><a href="#skill">Сервис</a></li>
+							<li><a href="#our">Портфолио</a></li>
+							<li><a href="#communication">Связь</a></li>
+						</ul>
+					</div>
+
+						<div class="logo aligner">
+							<img class="logo-img" src="img/
+								lo_go.png" alt="">
+						</div>
+
+					<div class="social">
+						<ul class="upper">
+							<li><a href="https://www.facebook.com/groups/stairs.webstudio/" target="_blank"><img src="icons/facebook.svg"><span>Facebook</span></a></li>
+							<li><a href="https://www.instagram.com/stairs.webstudio/"><img src="icons/instagram.svg"><span>Instagram</span></a></li>
+							<li><a href="https://vk.com/stairs.webstudio/"><img src="icons/vk.svg"><span>Vk</span></a></li>
+						</ul>	
+
+					</div>
+
+
+				</div>
+
+			</div>
+
+				<div class="name upper aligner os-animation" data-os-animation="fadeIn" data-os-animation-delay="1.2s">
+					<h1>Stairs</h1>
+				</div>
+
+				<div class="profill upper aligner os-animation" data-os-animation="fadeIn" data-os-animation-delay="1.3s">
+					<h3>Веб-студия</h3>
+				</div>
+
+				<div class="aligner">
+						<a href="#communication"><button class="upper aligner">Заказать сайт</button></a>
+				</div>
+
+			</div>
+
+		</header>
+
+
+		<!--      description         -->
+
+
+		<section id="description">
+			
+			<div class="container">
+				<div class="descrip">
+					<p>
+						Наша студия предоставляет услуги по разработке сайтов любого размера. Мы специализируемся по созданию стильных, 	современных веб-сайтов, веб-сервисов и интернет-магазинов.
+					</p>
+				</div>
+			</div>
+
+		</section>
+
+
+		<!--      skill         -->
+
+
+		<section id="skill">
+
+			<div class="container">
+
+				<div class="content">
+
+					<div class="con-skill aligner os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0.20s">
+						<img src="icons/desing.svg" alt="desing">
+						<h3>Современый дизайн</h3>
+						<p>Интуитивно понятный интерфейс поможет Вашим клиентам быстро найти нужную информацию или товар.</p>
+					</div>
+
+					<div class="con-skill aligner os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0.20s">
+						<img src="icons/adaptive.svg" alt="Adaptive">	
+						<h3>Адаптивность</h3>
+						<p>Независимо от того, какой размер экрана или устройства, ваш контент будет выглядеть потрясающе.</p>
+					</div>	
+
+					<div class="con-skill aligner os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0.20s">
+						<img src="icons/seo.svg" alt="Sea">
+						<h3>Разработка с учетом SEO</h3>
+						<p>Все наши сайты изначально разрабатываются с учетом требований поисковых систем и готовы к полноценному поисковому продвижению.</p>
+					</div>
+
+					</div>
+
+				</div>
+
+		</section>
+
+
+		<!--      content         -->
+
+
+		<section id="content">
+
+			<div class="container">
+				<h1 class="aligner upper">Как мы работаем</h1>
+				<div class="work">
+
+					<div class="info os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0.10s">
+
+						<div class="number aligner upper">
+							<h2>1</h2>
+						</div>
+
+							<h3 class="upper">Обсуждение и концепция</h3>
+						<p>Вы даете нам техническое задание, или мы составляем его вместе. По сложности и масштабности проекта мы формируем точную цену на разработку проекта и делаем концепсию сайта. Создаем уникальный дизайн для вашего сайта и далее приступаем к программной части.</p>
+
+					</div>
+
+					<div class="info os-animation secM" data-os-animation="fadeInUp" data-os-animation-delay="0.10s">
+
+						<div class="number aligner upper">
+							<h2>2</h2>
+						</div>
+
+							<h3 class="secH upper">Разработка</h3>
+						<p class="secP">«Оживляем» дизайн и воплощаем интерактивные элементы, получая на выходе уже почти готовый сайт. Далее проекту принадлежит программная сборка на основе системы управления сайтом. </p>
+
+					</div>
+
+					<div class="info os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0.10s">
+
+						<div class="number aligner upper">
+							<h2>3</h2>
+						</div>
+
+							<h3 class="upper">Сдача готовой работы</h3>
+						<p>Выставляем сайт на хост и передаем его под ваше управление. Составляется инструкция по управлению веб-ресурсом, проводятся консультации по всем возникшим вопросам.<br><br><br><span class="upper">Поздравляем, у вас свой сайт</span></p>
+
+					</div>
+				</div>
+		</div>
+
+		</section>
+
+
+<!--      our         -->
+
+	<section id="our">
+
+			<div class="container">
+
+				<h2 class="aligner upper">Наши работы</h2>
+
+				<div class="screen_foto">
+
+					<div class="screen_0 foto">
+						<a href="">
+							<div class="hover_zum"><img class="got" src="img/osbb.png" alt="">
+						<div class="text">
+							<h3 class="upper aligner">plateji kp</h3>
+							<p class="aligner">Cайт для получения инфомации о платежах для жителей города</p>
+						</div>
+							</div>
+						</a>
+					</div>
+					
+					<div class="screen_1 foto">
+						<a href="">
+							<div class="hover_zum"><img src="img/osbb2.jpg" alt="">
+						<div class="text">
+							<h3 class="upper aligner">stairs</h3>
+							<p class="aligner">Landing page студии разработки веб сайтов</p>
+						</div>
+							</div>
+						</a>
+					</div>
+
+				</div>
+
+			</div>
+		
+		</section>
+
+
+		<!--      communication         -->
+
+
+		<section id="communication">
+
+			<div class="container">
+
+				<div class="message">
+						<div class="os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="0.10s">
+						<div class="phone_email">
+
+							<h2 class="upper aligner">Связаться с нами</h2>
+
+							<span class="write upper">звоните по телефону:</span>
+							<div class="call"><img src="img/phone-call.svg" alt=""><p class="upper">+38 (097)-659-05-57<br>+38 (096)-475-15-67</p></div><br>
+							<span class="write upper">пишите нам на почту:</span>
+							<div class="mail"><img class="mes" src="img/mes.svg" alt=""><p>stairs.webstudio@gmail.com</p></div>
+						</div>
+						</div>
+						<div class="sending os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0.10s">
+
+							<form action="" class="form">
+
+								<div id="send-result"></div>
+
+								<div class="areas">
+									<input class="names" id="name" type="text" name="name" placeholder="Имя" maxlength="100" required><br>
+									<input class="email" id="email" type="text" name="email" placeholder="Email" maxlength="100" required><br>
+									<textarea name="text_form" id="textarea" cols="30" rows="10" wrap="soft" placeholder="Сообщение" maxlength="5000"></textarea><br>
+									<input type="hidden" name="csrf" value="<?php echo $csrf_token; ?>">
+									
+									<!--<div class="g-recaptcha position" data-sitekey="6LfZcDoUAAAAAFBNkCzvw4Ya6fn6oq964LL3p9xN"></div>-->
+									<input class="submit upper" type="button" id="do_send" value="Отправить">
+								</div>
+
+							</form>
+
+						</div>
+
+					</div>
+
+				</div>
+
+		</section>
+
+		
+
+	</div>
+
+		<footer>
+			<div class="container">
+
+				<div class="date aligner">
+					<span>Все права защищены&copy;.STAIRS<?php echo date ('Y') ?></span>
+				</div>
+
+			</div>
+
+		</footer>
+	
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+	<script src="js/ajax.js"></script>
+	<script>
+
+		$(document).ready(function(){
+
+			$('.mobilemenu').hide ();
+		
+
+		$('.small-menu').click(function (){
+
+			if ($('.mobilemenu').is(':visible'))
+				$('.mobilemenu').hide ();
+			else
+				$('.mobilemenu').show ();
+		});
+
+		$(document).scroll(function(){
+		
+			if ($(document).scrollTop() > $('.mobilemenu').height() + 5)
+				$('.mobiles').addClass('fixed');
+			else
+				$('.mobiles').removeClass('fixed');
+
+		});
+
+
+		window.onresize = function (event){
+			$('.mobilemenu').hide();
+			
+		};
+
+		});
+
+		</script>
+	<script src="js/coffee.js"></script>
+	<script src="js/scripts.js"></script>
+
+	<script type="text/javascript">$(window).on('load', function () {
+    	var $preloader = $('#p_prldr'),
+        $svg_anm   = $preloader.find('.cssload-loader');
+    	$svg_anm.fadeOut();
+   		$preloader.delay(1000).fadeOut('slow');
+	});
+</script>
+</body>
+</html>
