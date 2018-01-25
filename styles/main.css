@@ -60,13 +60,14 @@ h1 {
 }
 
 #p_prldr{
-position: fixed;
-left: 0;
-top: 0;
-right:0;
-bottom:0;
-background: #000;
-z-index: 30;}
+	position: fixed;
+	left: 0;
+	top: 0;
+	right:0;
+	bottom:0;
+	background: #0F0F0F;
+	z-index: 500;
+}
  
 .cssload-loader {
 	width: 438px;
