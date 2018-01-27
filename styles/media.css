@@ -1899,7 +1899,7 @@
 	}
 	}
 
-@media screen and (min-width: 425px) and (max-width: 767px) {
+@media screen and (min-width: 425px) and (max-width: 800px) {
 
 	#communication {
 		background: #E8E8E8;
@@ -1991,7 +1991,7 @@
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 769px) and (max-width: 1023px) {
 	
 	#communication {
 		background: #E8E8E8;
