@@ -1673,7 +1673,7 @@
 
 }
 
-@media screen and (min-width: 400px) and (max-width: 768px) {
+@media screen and (min-width: 400px) and (max-width: 769px) {
 	#our {
 		height: 1100px;
 	}
@@ -1713,7 +1713,7 @@
 		z-index: 100;
 	}
 }
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 770px) and (max-width: 1024px) {
 	
 	.screen_0 {
 		width: 100%;
