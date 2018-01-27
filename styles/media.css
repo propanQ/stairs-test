@@ -182,7 +182,7 @@
 	} 
 }
 
-@media screen and (min-width: 580px) and (max-width: 767px) {
+@media screen and (min-width: 580px) and (max-width: 768px) {
 
 	header {
 		height: 555px;
@@ -387,7 +387,7 @@
 	}
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 	
 	header {
 		height: 100%;
@@ -579,12 +579,12 @@
 	} 
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1365px) {
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
 
 	header {
 		height: 100%;
 		width: 100%;
-		min-height: 560px;
+		min-height: 760px;
 	}
 
 	.head-menu {
@@ -1114,6 +1114,28 @@
 
 }
 
+@media screen and (min-width: 1000px) and (max-width: 1367px) and (min-height: 665px) {
+	#skill {
+		max-height: 300px;
+	}
+
+	#content {
+		max-height: 500px;
+	}
+
+	#our {
+		max-height: 700px;
+	}
+
+	#communication {
+		max-height: 600px;
+	}
+
+	#description {
+		max-height: 80px;
+	}
+}
+
 @media screen and (min-width: 1820px) and (max-width: 2560px) {
 	.content {
 		display: -webkit-box;
@@ -1328,7 +1350,7 @@
 
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1365px) {
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
 
 	#content {
 		background: url(../img/wer.jpg) no-repeat center center / cover fixed;
@@ -1395,7 +1417,7 @@
 
 @media screen and (min-width: 1367px) and (max-width: 1850px) {
 	
-	.container > h1 {
+.container > h1 {
 	font-size: 35px;
 	padding: 65px 0 75px 0;
 	padding-top: 30px;
@@ -1673,7 +1695,7 @@
 
 }
 
-@media screen and (min-width: 400px) and (max-width: 769px) {
+@media screen and (min-width: 400px) and (max-width: 768px) {
 	#our {
 		height: 1100px;
 	}
@@ -1713,7 +1735,7 @@
 		z-index: 100;
 	}
 }
-@media screen and (min-width: 770px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 	
 	.screen_0 {
 		width: 100%;
