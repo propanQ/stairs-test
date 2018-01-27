@@ -7,7 +7,7 @@
 	}
 
 	#particles-js {
-  	height: 640px;
+  		height: 640px;
 	}
 
 	#wrapper {
@@ -42,7 +42,7 @@
 
 	.mobiles {
 		width: 100%;
-		height: 45px;
+		height: 47px;
 		background: white;
 		border-bottom: 1px solid #3C3C3C;
 	}
@@ -75,6 +75,7 @@
 	.top ul {
 		width: 100%;
 		height: auto;
+		margin-top: 7px;
 	}
 
 	.top li {
@@ -136,7 +137,7 @@
 	}
 
 	.block > ul > li img {
-		margin: 0 5px 0 0;
+		margin: 0 10px 0 0;
 	}
 
 	.bottom span {
@@ -157,20 +158,28 @@
 	}
 
 	.name > h1 {
-		margin-top: 160px;
 		font-size: 65px;
 	}
 
 	.profill {
 		margin-top: 15px;
 		font-size: 15px;
+		transform: translate(0%, -20%);
 	}
 
 	button {
 		margin-top: 34px;
 		padding: 15px 25px;
 		font-size: 17px;
-	}   
+	}
+
+	.mainTitle {
+		width: 225px;
+		height: 1px;
+		margin: 0 auto;
+		vertical-align: middle;
+		margin-top: 170px;
+	} 
 }
 
 @media screen and (min-width: 580px) and (max-width: 767px) {
@@ -248,6 +257,7 @@
 	.top ul {
 		width: 100%;
 		height: auto;
+		margin-top: 7px;
 	}
 
 	.top li {
@@ -338,13 +348,13 @@
 	}
 
 	.name > h1 {
-		margin-top: 17%;
 		font-size: 70px;
 	}
 
 	.profill {
 		margin-top: 12px;
 		font-size: 15px;
+		transform: translate(0%, -20%);
 	}
 
 	button {
@@ -352,21 +362,29 @@
 		font-size: 14px;
 		padding: 12px 33px;
 	}   
+
+	.mainTitle {
+		width: 250px;
+		height: 1px;
+		margin: 0 auto;
+		vertical-align: middle;
+		margin-top: 170px;
+	} 
 }
 
 @media screen and (min-height: 768px) and (max-height: 1366px) and (max-width: 1851px) {
-		header {
+	header {
 		height: 555px;
 		width: 100%;
-		}
+	}
 
-		#particles-js {
+	#particles-js {
   		height: 555px;
-		}
+	}
 
-		#wrapper {
+	#wrapper {
 		height: 555px;
-		}
+	}
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -401,7 +419,7 @@
 		width: 100%;
 		height: 55px;
 		background: white;
-		border-bottom: 2px solid black;
+		border-bottom: 1px solid #1D1D1D;
 	}
 
 	.fa {
@@ -432,6 +450,7 @@
 	.top ul {
 		width: 100%;
 		height: auto;
+		margin-top: 11px;
 	}
 
 	.top li {
@@ -499,6 +518,11 @@
 		line-height: 45px;
 	}
 
+	.block > ul > li img {
+		margin: 0 5px 1px 0;
+	}
+
+
 	.block > ul > li i {
 		color: black;
 		font-size: 24px;
@@ -536,14 +560,22 @@
 	}   
 
 	.name > h1 {
-		margin-top: 17%;
 		font-size: 85px;
 	}
 
 	.profill {
 		margin-top: 5px;
 		font-size: 17px;
+		transform: translate(0%, -20%);
 	}
+
+	.mainTitle {
+		width: 300px;
+		height: 1px;
+		margin: 0 auto;
+		vertical-align: middle;
+		margin-top: 250px;
+	} 
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1365px) {
@@ -603,20 +635,22 @@
 	    display: -o-flex;
 	    display: flex;
 		padding: 20px 0 0 0;
+		justify-content:space-between;
 	}
 
-	.social > ul li {
-		padding-right: 20px;
+	.social li {
+		position: relative;
+		width: 13%;
 	}
 
 	.name > h1 {
-		margin-top: 13%;
 		font-size: 100px;
 	}
 
 	.profill {
 		margin-top: 12px;
 		font-size: 18px;
+		transform: translate(0%, -20%);
 	}
 
 	button {
@@ -626,32 +660,39 @@
 	button > a {
 		font-size: 24px;
 	}
+	.mainTitle {
+		width: 350px;
+		height: 1px;
+		margin: 0 auto;
+		vertical-align: middle;
+		margin-top: 170px;
+	} 
 
 }
 
 @media screen and (min-width: 1367px) and (max-width: 1819px) {
-		header {
+	header {
 		height: 100%;
 		width: 100%;
-		}
+	}
 
-		#particles-js {
+	#particles-js {
   		height: 100%;
-		}
+	}
 
-		#wrapper {
+	#wrapper {
 		height: 100%;
-		}
+	}
 
 
 	.name > h1 {
-		margin-top: 13%;
 		font-size: 110px;
 	}
 
 	.profill {
 		margin-top: 12px;
 		font-size: 24px;
+		transform: translate(0%, -20%);
 	}
 
 	button {
@@ -661,7 +702,31 @@
 	button > a {
 		font-size: 34px;
 	}
+
+	.social li {
+		position: relative;
+		width: 13%;
+	}
+
+	.mainTitle {
+		width: 400px;
+		height: 1px;
+		margin: 0 auto;
+		vertical-align: middle;
+		margin-top: 170px;
+	} 
 }
+
+@media screen and (min-width: 1400px) and (max-width: 1819px) {
+
+	.mainTitle {
+		width: 400px;
+		height: 1px;
+		margin: 0 auto;
+		vertical-align: middle;
+		margin-top: 240px;
+	} 
+	}
 
 @media screen and (min-width: 1820px) and (max-width: 2560px) {
 	
@@ -697,11 +762,15 @@
 		display: inline-block;
 		color: white;
 		font-weight: 700;
-		font-size: 18px;
+		font-size: 13px;
 	}
 
 	li:last-child {
 		padding: 0;
+	}
+
+	.social span {
+		padding-left: 53px;
 	}
 
 	li {
@@ -730,15 +799,16 @@
 		display: -webkit-inline-flex;
 		display: -ms-inline-flexbox;
 		padding-right: 80px;
+		padding-top: 27px;
 	}
 	.social ul li img {
-		margin: 0px 0px 0px -80px;
+		margin: -2px 0px 0px -53px;
 		position: absolute;
-		width: 200%;
-		height: 200%;
+		width: 170%;
+		height: 170%;
 	}
 	.social ul li:last-child img {
-		margin: 2px 0px 0px -80px;
+		margin: -2px 0px 0px -53px;
 	}
 
 	.logo {
@@ -751,20 +821,19 @@
 	}
 
 	.name > h1 {
-		margin-top: 13%;
-		font-size: 140px;
+		font-size: 125px;
+		font-weight: 700;
 	}
 
 	.profill {
-		margin-top: 5px;
-		font-size: 24px;
+		font-size: 20px;
+		transform: translate(0%, -20%);
 	}
 	
 	button {
-		font-size: 30px;
-		margin-top: 30px;
+		font-size: 23px;
+		margin-top: 33px;
 	}
-
 }
 	
 /* <---  ---> */
@@ -962,13 +1031,14 @@
 	}
 
 	.con-skill > h3 {
+		padding-top: 23px;
 		font-size: 14px;
 		color: black;
 	}
 
 	.con-skill > p {
 		font-size: 11px;
-		padding: 2px 10px;
+		padding: 0 10px;
 	}
 
 	.con-skill > img {
@@ -1001,7 +1071,7 @@
 	}
 
 	.con-skill > h3 {
-		padding-top: 10px;
+		padding-top: 25px;
 		font-size: 16px;
 		color: black;
 	}
@@ -1070,12 +1140,12 @@
 
 	.con-skill > h3 {
 		padding-top: 10px;
-		font-size: 20px;
+		font-size: 16px;
 		color: black;
 	}
 
 	.con-skill > p {
-		font-size: 15px;
+		font-size: 13px;
 		padding: 7px 20px;
 	}
 }
@@ -1403,15 +1473,15 @@
 
 @media screen and (min-width: 1851px) and (max-width: 1920px) {
 
-	#content {
+#content {
 	background: url(../img/wer.jpg) no-repeat center center / cover fixed;
-	height: 100%;
+	height: 700px;
 }
 
 .container > h1 {
 	font-size: 35px;
 	padding: 65px 0 75px 0;
-	padding-top: 220px;
+	padding-top: 75px;
 }
 
 .work {
@@ -1426,8 +1496,8 @@
 
 .info {
 	background-color: rgba(153, 153, 153, 0.2);
-	width: 280px;
-	min-height: 340px;
+	width: 285px;
+	min-height: 360px;
 	border: 2px solid #EAE74F;
 	position: relative;
 }
@@ -1445,8 +1515,9 @@
 }
 
 .number > h2 {
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: 700;
+	padding-top: 4px;
 }
 
 .info > h3 {
@@ -1461,7 +1532,7 @@
 }
 
 .info > p {
-	padding: 15px 20px;
+	padding: 15px 31px;
 	color: white;
 	font-size: 14px;
 	text-align: center;
@@ -1588,7 +1659,7 @@
 		height: 100%;
 		position: absolute;
 		top: 33%;
-		left: 5%;
+		left: 2%;
 		padding: 0 50px 0 50px;
 		opacity: 0;
 		z-index: 100;
@@ -1623,7 +1694,7 @@
  		position: relative;
 
 	}
-		.screen_0 {
+	.screen_0 {
 		width: 100%;
 		height: 100%;
 	}
@@ -1645,6 +1716,17 @@
 	}
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+	
+	.screen_0 {
+		width: 100%;
+		height: 45vh;
+	}
+
+	.screen_1 {
+		width: 100%;
+		height: 45vh;
+	}
+
 	.text {
 		width: 100%;
 		height: 100%;
@@ -1653,10 +1735,32 @@
 		left: 3%;
 		padding: 0 70px;
 		opacity: 0;
-	z-index: 100;
+		z-index: 100;
 	}
 
+}
 
+@media screen and (min-width: 1367px) and (max-width: 2560px) {
+
+	.text {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 40%;
+		left: 3%;
+		padding: 0 170px;
+		opacity: 0;
+		z-index: 100;
+		font-size: 100px;
+	}
+
+	.text > h3 {
+		font-size: 35px;
+	}
+
+	.text > p {
+		font-size: 17px;
+	}
 }
 
 /* <---  ---> */
@@ -1751,23 +1855,29 @@
 		background-color: white;
 		border: none;
 		margin: 15px 0;
-		padding: 0 8px;
+		padding: 0 11px;
 		font-size: 14px;
 		color: #3D3D3D;
 	}	
+
+	#textarea {
+
+	padding: 15px 11px;
+
+	}
 
 	.submit {
 		width: 50%;
 		height: 54px;
 	}
-.g-recaptcha {
 
-transform:scale(0.8);
--webkit-transform:scale(0.8);
-transform-origin:0 0;
--webkit-transform-origin:0 0;
-}
-}
+	.g-recaptcha {
+		transform:scale(0.8);
+		-webkit-transform:scale(0.8);
+		transform-origin:0 0;
+		-webkit-transform-origin:0 0;
+	}
+	}
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
 
@@ -1849,7 +1959,7 @@ transform-origin:0 0;
 		background-color: white;
 		border: none;
 		margin: 15px 0;
-		padding: 0 8px;
+		padding: 0 18px;
 		font-size: 14px;
 		color: #3D3D3D;
 	}	
@@ -1936,7 +2046,7 @@ transform-origin:0 0;
 		background-color: white;
 		border: none;
 		margin: 15px 0;
-		padding: 0 8px;
+		padding: 0 18px;
 		font-size: 14px;
 		color: #3D3D3D;
 	}
@@ -2051,7 +2161,7 @@ transform-origin:0 0;
 		background-color: white;
 		border: none;
 		margin: 15px 0;
-		padding: 0 8px;
+		padding: 0 18px;
 		color: #3D3D3D;
 	}
 
@@ -2070,7 +2180,7 @@ transform-origin:0 0;
 		background-color: white;
 		color: #3D3D3D;
 		border: none;
-		padding: 15px 8px;
+		padding: 15px 18px;
 		resize: none;
 	}
 
@@ -2189,7 +2299,7 @@ transform-origin:0 0;
 		background-color: white;
 		border: none;
 		margin: 15px 0;
-		padding: 0 8px;
+		padding: 0 18px;
 		color: #3D3D3D;
 	}
 
@@ -2208,7 +2318,7 @@ transform-origin:0 0;
 		background-color: white;
 		color: #3D3D3D;
 		border: none;
-		padding: 15px 8px;
+		padding: 15px 18px;
 		resize: none;
 	}
 
@@ -2267,9 +2377,9 @@ transform-origin:0 0;
 		text-align: left;
 		font-weight: bold;
 		width: 100%;
-		font-size: 50px;
+		font-size: 35px;
 		color: #3D3D3D;
-		margin-bottom: 20px;
+		margin-bottom: 55px;
 	}
 
 	.message {
@@ -2293,26 +2403,28 @@ transform-origin:0 0;
 
 	.call {
 		display: inline-block;
+		padding-bottom: 25px;
 	}
 
 	.call > img{
-		width: 6%;
-		height: 6%;
-		margin: 30px 0;
+		width: 5%;
+		height: 5%;
+		margin: 17px 0;
 	}
 
 	.write {
 		color: #3D3D3D;
-		font-size: 20px;
+		font-size: 15px;
+
 	}
 
 	.call > p {
 		display: inline-block;
-		transform: translate(10%, -50%);
-		font-size: 20px;
+		transform: translate(10%, -40%);
+		font-size: 15px;
 		margin-top: -15px;
 		color: #3D3D3D;
-		font-weight: 600;
+		font-weight: 500;
 	}
 
 	.mail {
@@ -2320,16 +2432,16 @@ transform-origin:0 0;
 	}
 
 	.mail > img{
-		width: 6%;
-		height: 6%;
-		margin: 30px 0;
+		width: 5%;
+		height: 5%;
+		margin: 15px 0;
 	}
 
 	.mail > p {
-		transform: translate(10%, -270%);
-		font-size: 20px;
+		transform: translate(8%, -245%);
+		font-size: 15px;
 		color: #3D3D3D;
-		font-weight: 600;
+		font-weight: 500;
 	}
 
 	.sending {
@@ -2345,10 +2457,10 @@ transform-origin:0 0;
 		height: 75px;
 		background-color: white;
 		border: none;
-		margin: 15px 0;
-		padding: 0 8px;
+		margin: 5px 0;
+		padding: 0 25px;
 		color: #3D3D3D;
-		font-size: 20px;
+		font-size: 15px;
 	}
 
 	.names::placeholder {
@@ -2366,9 +2478,9 @@ transform-origin:0 0;
 		background-color: white;
 		color: #3D3D3D;
 		border: none;
-		padding: 15px 8px;
+		padding: 20px 25px;
 		resize: none;
-		font-size: 20px;
+		font-size: 15px;
 	}
 
 	#textarea::placeholder {
@@ -2394,7 +2506,7 @@ transform-origin:0 0;
 		color: #3D3D3D;
 		font-weight: 500;
 		outline: none;
-		font-size: 20px;
+		font-size: 16px;
 	}
 
 	.submit:active {
@@ -2434,7 +2546,7 @@ html, body {
 	.date  {
 		margin: 0 auto;
 		width: 100%;
-		padding-top: 5px;
+		padding-top: 1px;
 	}
 
 	.date > span {
@@ -2486,7 +2598,7 @@ html, body {
 	}
 	
 	#content > .container {
-		padding-top: 150px;
+		padding-top: 40px;
 	}
 
 	.message {
@@ -2500,6 +2612,17 @@ html, body {
 	#our > .container {
 		padding-top: 135px;
 	}
+
+	.date  {
+		margin: 0 auto;
+		width: 100%;
+		padding-top: 3px;
+	}
+
+	#content {
+		height: 650px;
+	}
+
 }
 @media screen and (min-width: 1024px) and (max-width: 1365px) {
 
@@ -2511,7 +2634,7 @@ html, body {
 	.date  {
 		margin: 0 auto;
 		width: 100%;
-		padding-top: 5px;
+		padding-top: 1px;
 	}
 
 	.date > span {
@@ -2523,7 +2646,7 @@ html, body {
 @media screen and (min-width: 1920px) and (max-width: 2560px) {
 
 	footer {
-		height: 20px;
+		height: 30px;
 		background-color: white;
 	}
 
@@ -2534,9 +2657,8 @@ html, body {
 	}
 
 	.date > span {
-		font-size: 13px;
+		font-size: 15px;
 	}
-ї
 
 /* <---  ---> */
 
