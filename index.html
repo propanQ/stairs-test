@@ -1,3 +1,4 @@
+
 <!--[if lt IE 9]>
 	<link rel="stylesheet" href="https://rawgit.com/codefucker/finalReject/master/reject/reject.css" media="all" />
 	<script type="text/javascript" src="https://rawgit.com/codefucker/finalReject/master/reject/reject.min.js"></script>
@@ -10,7 +11,7 @@
 		$_SESSION['csrf_' . $form_key] = $csrf_token;
 ?>
 <!DOCTYPE html>
-<html lang="ru" prefix="og: http://ogp.me/ns#">
+<html prefix="og: http://ogp.me/ns#" lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<title>&#9656;Cоздание и разработка сайтов | Заказать сайт - веб студия &#119826;&#119827;&#119808;&#119816;&#119825;&#119826; </title>
@@ -21,7 +22,7 @@
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="webstairs.pro">
 	<meta property="og:image" content="https://propanq.github.io/stairs-test/img/forSocial.jpg">
-
+	<div id="p_prldr"><div class="cssload-loader">STAIRS</div></div>
 	<div class="none">
 	<div itemscope itemtype="http://schema.org/Organization">
   	<span itemprop="name">STAIRS</span>
@@ -43,31 +44,20 @@
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
 	<link rel="stylesheet" type="text/css" href="styles/media.css">
 	
-	
-<script src="js/jquery-2.2.4.min.js"></script>
+	<!-- Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=ІДЕНТИФІКАТОР_ВІДСТЕЖЕННЯ_GA"></script>
+	<script>
+  	window.dataLayer = window.dataLayer || [];
+ 	 function gtag(){dataLayer.push(arguments);}
+  	gtag('js', new Date());
+  	gtag('config', 'ІДЕНТИФІКАТОР_ВІДСТЕЖЕННЯ_GA');
+	</script>
+
+	<script src="js/jquery-2.2.4.min.js"></script>
+
 </head>
 <body>
-	<!-- [if lte IE 10]>
-	<meta http-equiv="refresh" content="0; url=old/oldbrowser.html">
-	<![endif]-->
 
-	<div id="p_prldr"><div class="contpre"><span class="svg_anm"><div class="cssload-loader">STAIRS</div></span></div></div>
-<script type="text/javascript">
-	
-$(document).on('click', 'a', function() {
-    
-    var site = /index\.html/;
-
-    var href = $(this).attr('href');
-	
-   
-    if (/^(http|https|ftp)/.test(href) && !site.test(href)) {
-        $(this).attr('target', '_blank');
-    }
-})
-
-
-</script>
 	<div id="wrapper">
 
 		<!--      header         -->
@@ -126,14 +116,11 @@ $(document).on('click', 'a', function() {
 							<li><a href="https://www.instagram.com/stairs.webstudio/"><img src="icons/instagram.svg"><span>Instagram</span></a></li>
 							<li><a href="https://vk.com/stairs.webstudio/"><img src="icons/vk.svg"><span>Vk</span></a></li>
 						</ul>	
-
 					</div>
-
-
 				</div>
 
 			</div>
-
+				<div class="mainTitle">
 				<div class="name upper aligner os-animation" data-os-animation="fadeIn" data-os-animation-delay="1.2s">
 					<h1>Stairs</h1>
 				</div>
@@ -145,14 +132,12 @@ $(document).on('click', 'a', function() {
 				<div class="aligner">
 						<a href="#communication"><button class="upper aligner">Заказать сайт</button></a>
 				</div>
-
+				</div>
 			</div>
 
 		</header>
 
-
 		<!--      description         -->
-
 
 		<section id="description">
 			
@@ -166,9 +151,7 @@ $(document).on('click', 'a', function() {
 
 		</section>
 
-
 		<!--      skill         -->
-
 
 		<section id="skill">
 
@@ -260,10 +243,10 @@ $(document).on('click', 'a', function() {
 
 					<div class="screen_0 foto">
 						<a href="">
-							<div class="hover_zum"><img class="got" src="img/osbb.png" alt="">
+							<div class="hover_zum"><img class="got" src="img/done.jpg" alt="">
 						<div class="text">
-							<h3 class="upper aligner">plateji kp</h3>
-							<p class="aligner">Cайт для получения инфомации о платежах для жителей города</p>
+							<h3 class="upper aligner">stairs</h3>
+							<p class="aligner">Landing page студии разработки веб сайтов</p>
 						</div>
 							</div>
 						</a>
@@ -271,10 +254,10 @@ $(document).on('click', 'a', function() {
 					
 					<div class="screen_1 foto">
 						<a href="">
-							<div class="hover_zum"><img src="img/osbb2.jpg" alt="">
+							<div class="hover_zum"><img src="img/done2.png" alt="">
 						<div class="text">
-							<h3 class="upper aligner">stairs</h3>
-							<p class="aligner">Landing page студии разработки веб сайтов</p>
+							<h3 class="upper aligner">OSBB</h3>
+							<p class="aligner">Cайт для получения инфомации о платежах для жителей города</p>
 						</div>
 							</div>
 						</a>
@@ -286,9 +269,7 @@ $(document).on('click', 'a', function() {
 		
 		</section>
 
-
 		<!--      communication         -->
-
 
 		<section id="communication">
 
@@ -331,9 +312,6 @@ $(document).on('click', 'a', function() {
 				</div>
 
 		</section>
-
-		
-
 	</div>
 
 		<footer>
@@ -350,12 +328,9 @@ $(document).on('click', 'a', function() {
 	<script src='https://www.google.com/recaptcha/api.js'></script>
 	<script src="js/ajax.js"></script>
 	<script>
-
 		$(document).ready(function(){
 
 			$('.mobilemenu').hide ();
-		
-
 		$('.small-menu').click(function (){
 
 			if ($('.mobilemenu').is(':visible'))
@@ -370,27 +345,39 @@ $(document).on('click', 'a', function() {
 				$('.mobiles').addClass('fixed');
 			else
 				$('.mobiles').removeClass('fixed');
-
 		});
-
-
 		window.onresize = function (event){
-			$('.mobilemenu').hide();
-			
+			$('.mobilemenu').hide();	
 		};
-
 		});
-
 		</script>
-	<script src="js/coffee.js"></script>
-	<script src="js/scripts.js"></script>
 
-	<script type="text/javascript">$(window).on('load', function () {
+	<script>$(window).on('load', function () {
     	var $preloader = $('#p_prldr'),
         $svg_anm   = $preloader.find('.cssload-loader');
     	$svg_anm.fadeOut();
    		$preloader.delay(1000).fadeOut('slow');
 	});
-</script>
+	</script>
+
+	<script type="text/javascript">
+		
+	$(document).on('click', 'a', function() {
+	    
+	    var site = /index\.html/;
+
+	    var href = $(this).attr('href');
+		
+	   
+	    if (/^(http|https|ftp)/.test(href) && !site.test(href)) {
+	        $(this).attr('target', '_blank');
+	    }
+	})
+
+
+	</script>
+
+	<script src="js/coffee.js"></script>
+	<script src="js/scripts.js"></script>
 </body>
 </html>
